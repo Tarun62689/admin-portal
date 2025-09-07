@@ -1,8 +1,10 @@
 This project is a full-stack web application for college event management.The 
 backend and frontend is divided into two distinct services. 
+
 The college-event-management which is the backend handles all the business logic 
 and API routes while the admin-portal which is the frontend manages the user 
 interface for admins and admin features. 
+
 Backend:College Event Management: 
 Using Node.js and Express.js the college-event-management is implemented to serve 
 as RESTful API. 
@@ -26,7 +28,9 @@ src/routes:For specifying the API endpoints and mapping them to the respective
 controller functions this folder is used. 
 The primary functions are API endpoints/auth,/admin,/students,and 
 /reports:authentication,admin activities such as creating events,student actions and 
-report generations. 
+report generations.
+
+
 Frontend:Admin Portal: 
 The admin-portal serves as the administrator user interface and it is a React+Vite 
 application 
@@ -53,6 +57,8 @@ frontend and backend are deployed individually on Render,which is the component
 practice for web applications that supports independent scaling and upkeep of the two 
 services.the frontend sends API calls to the deployed URL of the backend to retrieve 
 and send data 
+
+
 Technologies and Deployment: 
 Backend:Node.js,Express.js,Supabase,deployed on Render 
 Frontend:React.js,Vite,Tailwind CSS,deployed on Render.
