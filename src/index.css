@@ -1,0 +1,79 @@
+@import "react-calendar/dist/Calendar.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Calendar Styling for Dashboard */
+.custom-calendar {
+  border: none !important;
+  width: 100% !important;
+  font-family: inherit;
+  font-size: 0.875rem; /* Slightly smaller for compact look */
+  background: transparent;
+}
+
+.custom-calendar .react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.custom-calendar .react-calendar__navigation button {
+  min-width: 32px;
+  height: 32px;
+  background: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.custom-calendar .react-calendar__navigation button:hover {
+  background: #f3e8ff; /* purple-100 */
+  color: #5b21b6; /* purple-700 */
+}
+
+.custom-calendar .react-calendar__month-view__weekdays {
+  text-transform: none;
+  font-size: 0.75rem; /* compact weekdays */
+  color: #9ca3af; /* gray-400 */
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.custom-calendar .react-calendar__tile {
+  padding: 0.5rem 0.25rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.custom-calendar .react-calendar__tile--now {
+  background: transparent;
+  border: 2px solid #7c3aed; /* purple-500 */
+  color: #4f46e5; /* purple-600 */
+  font-weight: 600;
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background: #4f46e5 !important; /* purple-600 */
+  color: white !important;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.custom-calendar .react-calendar__tile:hover {
+  background: #ede9fe !important; /* purple-100 */
+  border-radius: 0.5rem;
+}
+
+.custom-calendar .event-tile {
+  background: #dbeafe !important; /* blue-100 for event */
+  color: #1e40af !important; /* blue-800 */
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
