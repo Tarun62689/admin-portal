@@ -1,4 +1,4 @@
-# college event management
+# College Event Management
 
 ## Website Link : https://admin-portal-3f7t.onrender.com
 This project is a full-stack web application for college event management.The 
