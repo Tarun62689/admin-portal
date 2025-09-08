@@ -1,6 +1,10 @@
 # College Event Management
 
 ## Website Link : https://admin-portal-3f7t.onrender.com
+
+## Database Schema Visualization:
+![WhatsApp Image 2025-09-07 at 13 22 54_96a6d4ec](https://github.com/user-attachments/assets/033fd765-8b01-4a0c-99c1-53d9c50f58f0)
+
 This project is a full-stack web application for college event management.The 
 backend and frontend is divided into two distinct services. 
 
